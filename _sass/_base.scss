@@ -48,11 +48,11 @@ p {
 
 .bg-dark {
     background-color: $theme-dark;
-    color: white;
+    color: rgb(97, 97, 97);
 }
 
 .text-faded {
-    color: rgba(white, .7);
+    color: rgba(rgb(145, 145, 145), .7);
 }
 
 section {
