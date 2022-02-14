@@ -154,7 +154,7 @@ header {
     width: 100%;
     min-height: auto;
     @include background-cover;
-    background-position: bottom;
+    background-position: center;
     background-image: url('../img/new_header1.png');
     text-align: center;
     color: rgb(253, 253, 253);
@@ -176,7 +176,7 @@ header {
             p {
                 font-weight: 300;
                 color: rgba(rgb(0, 0, 0), .7);
-                font-size: 14px;
+                font-size: 13px;
                 margin-bottom: 20px;
                 position: relative;
                 bottom: 0;
