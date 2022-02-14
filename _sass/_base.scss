@@ -48,7 +48,7 @@ p {
 
 .bg-dark {
     background-color: $theme-dark;
-    color: rgb(245, 241, 241);
+    color: rgb(255, 255, 255);
 }
 
 .text-faded {
@@ -59,9 +59,9 @@ p {
     color: rgba(rgb(0, 0, 0), .7);
     text-align: center;
     position: relative;
-    bottom: 10;
-    right:0;
-    vertical-align: text-bottom;
+    // bottom: 10;
+    // right:0;
+    vertical-align: bottom;
 }
 
 section {
