@@ -1,12 +1,12 @@
 # Site settings
-title:
-email:
+title: Development as Freedom
+email: duongthuvn@protonmail.com
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 
-twitter_username:
-github_username:
+twitter_username: duongthuvn
+github_username: non-ceterisparibus
 
 # Build settings
 markdown: kramdown
