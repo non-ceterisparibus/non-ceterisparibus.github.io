@@ -55,14 +55,14 @@ p {
     color: rgba(rgb(245, 243, 243), .7);
 }
 
-.text-bottom {
-    color: rgba(rgb(0, 0, 0), .7);
-    text-align: center;
-    position: relative;
-    bottom: 10;
-    right:0;
-    // vertical-align: bottom;
-}
+// .text-bottom {
+//     color: rgba(rgb(0, 0, 0), .7);
+//     text-align: center;
+//     position: relative;
+//     bottom: 10;
+//     right: 0;
+//     vertical-align: bottom;
+// }
 
 section {
     padding: 100px 0;
@@ -171,7 +171,7 @@ header {
         position: relative;
         text-align: center;
         padding: 100px 15px 100px;
-        width: 100%;
+        width: 90%;
         .header-content-inner {
             h1 {
                 font-weight: 700;
@@ -186,7 +186,7 @@ header {
                 font-weight: 300;
                 color: rgba(rgb(0, 0, 0), .7);
                 font-size: 12px;
-                margin-bottom: 20px;
+                // margin-bottom: 20px;
             }
         }
     }
