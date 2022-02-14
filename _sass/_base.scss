@@ -159,7 +159,7 @@ header {
     text-align: center;
     color: rgb(253, 253, 253);
     .header-content {
-        position: fixed;
+        position: relative;
         text-align: center;
         padding: 100px 15px 100px;
         width: 100%;
@@ -178,7 +178,7 @@ header {
                 color: rgba(rgb(0, 0, 0), .7);
                 font-size: 14px;
                 margin-bottom: 20px;
-                position: fixed;
+                position: relative;
                 bottom: 0;
             }
         }
