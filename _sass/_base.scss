@@ -163,13 +163,13 @@ header {
     width: 100%;
     min-height: auto;
     @include background-cover;
-    background-position: center;
-    background-image: url('../img/new_header.png');
-    text-align: center;
-    color: rgb(253, 253, 253);
+    background-position: top;
+    background-image: url('../img/new_header2.png');
+    text-align: bottom;
+    color: rgb(0, 0, 0);
     .header-content {
         position: relative;
-        text-align: center;
+        text-align: bottom;
         padding: 90px 15px 90px;
         width: 90%;
         .header-content-inner {
@@ -185,8 +185,8 @@ header {
             p {
                 font-weight: 300;
                 color: rgba(rgb(0, 0, 0), .7);
-                font-size: 12px;
-                // margin-bottom: 20px;
+                font-size: 11px;
+                // margin-bottom: 5px;
             }
         }
     }
