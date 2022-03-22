@@ -46,6 +46,11 @@ p {
     background-color: $theme-primary;
 }
 
+.bg-header {
+    background-color: $theme-header;
+    color: rgb(12, 12, 12);
+}
+
 .bg-dark {
     background-color: $theme-dark;
     color: rgb(255, 255, 255);
@@ -163,13 +168,13 @@ header {
     width: 100%;
     min-height: auto;
     @include background-cover;
-    background-position: top;
+    background-position: center;
     background-image: url('../img/new_header2.png');
-    text-align: bottom;
-    color: rgb(0, 0, 0);
+    text-align: center;
+    color: rgb(14, 13, 13);
     .header-content {
         position: relative;
-        text-align: bottom;
+        text-align: center;
         padding: 90px 15px 90px;
         width: 90%;
         .header-content-inner {
@@ -185,7 +190,7 @@ header {
             p {
                 font-weight: 300;
                 color: rgba(rgb(0, 0, 0), .7);
-                font-size: 11px;
+                font-size: 12px;
                 // margin-bottom: 5px;
             }
         }
