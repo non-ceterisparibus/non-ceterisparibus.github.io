@@ -63,14 +63,15 @@ p {
 .text-dark {
     color: rgba(rgb(15, 15, 15), .7);
 }
-// .text-bottom {
-//     color: rgba(rgb(0, 0, 0), .7);
-//     text-align: center;
-//     position: relative;
-//     bottom: 10;
-//     right: 0;
-//     vertical-align: bottom;
-// }
+
+.text-bottom {
+    color: rgba(rgb(0, 0, 0), .7);
+    text-align: center;
+    position: absolute;
+    bottom: 10;
+    right: 0;
+    vertical-align: bottom;
+}
 
 section {
     padding: 100px 0;
