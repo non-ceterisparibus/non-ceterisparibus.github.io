@@ -14,7 +14,7 @@ markdown: kramdown
 gems:
   - octopress-paginate
 paginate: 4
-paginate_path:      "/:categories/page:num/"
+paginate_path:      "/posts/page:num/"
 plugins:
   - jekyll-feed
   - jekyll-paginate
