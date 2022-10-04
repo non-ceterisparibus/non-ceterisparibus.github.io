@@ -1,9 +1,10 @@
 ---
 layout: page
 title: Projects
+paginate:
+  collection: projects
 background: '/img/bg-project.jpg'
 description: Here I share my thought on various subjects
-paginate_path:      "/projects/page:num/"
 ---
 
 {% for project in paginator.projects %}
