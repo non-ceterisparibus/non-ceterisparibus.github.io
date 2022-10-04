@@ -7,7 +7,7 @@ background: '/img/bg-post.jpg'
 description: Here I share my thought on various subjects
 ---
 
-{% for post in paginator.blogs %}
+{% for post in paginator.posts %}
 
 <article class="post-preview">
   <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
