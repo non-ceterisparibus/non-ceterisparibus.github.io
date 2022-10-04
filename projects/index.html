@@ -2,12 +2,12 @@
 layout: page
 title: Projects
 paginate:
-  collection: projects
+  tag: projects
 background: '/img/bg-project.jpg'
 description: Here I share my thought on various subjects
 ---
 
-{% for project in paginator.projects %}
+{% for project in paginator.posts %}
 
 <article class="post-preview">
   <a href="{{ project.url | prepend: site.baseurl | replace: '//', '/' }}">
