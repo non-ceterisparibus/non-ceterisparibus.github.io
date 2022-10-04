@@ -7,7 +7,7 @@ background: '/img/bg-project.jpg'
 description: Here I share my thought on various subjects
 ---
 
-{% for project in paginator.posts %}
+{% for project in paginator.projects %}
 
 <article class="post-preview">
   <a href="{{ project.url | prepend: site.baseurl | replace: '//', '/' }}">
@@ -18,14 +18,6 @@ description: Here I share my thought on various subjects
     <h3 class="post-subtitle">{{ project.excerpt | strip_html | truncatewords: 15 }}</h3>
     {% endif %}
   </a>
-  <p class="post-meta">Posted by
-    {% if project.author %}
-    {{ project.author }}
-    {% else %}
-    {{ site.author }}
-    {% endif %}
-    on {{ project.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=project.content %}
-  </p>
 </article>
 
 <hr>
