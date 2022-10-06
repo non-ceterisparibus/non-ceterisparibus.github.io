@@ -168,7 +168,7 @@ aside {
 // Homepage Header
 
 header {
-    position: relative;
+    position: absolute;
     width: 100%;
     min-height: auto;
     @include background-cover;
