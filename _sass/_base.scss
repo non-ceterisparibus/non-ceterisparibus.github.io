@@ -147,11 +147,11 @@ aside {
             background-color: white;
             border-color: rgba($theme-dark, .5);
             .navbar-header .navbar-brand {
-                color: $theme-primary;
+                color: $theme-dark;
                 font-size: 14px;
                 &:hover,
                 &:focus {
-                    color: darken($theme-primary, 10%);
+                    color: darken($theme-dark, 10%);
                 }
             }
             .nav > li > a,
@@ -209,7 +209,7 @@ header {
             transform: translateY(-50%);
             padding: 0 30px;
             .header-content-inner {
-                max-width: 1200px;
+                max-width: 1000px;
                 margin-left: auto;
                 margin-right: auto;
                 p {
