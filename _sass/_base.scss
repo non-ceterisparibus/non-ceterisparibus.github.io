@@ -74,11 +74,11 @@ p {
 }
 
 section {
-    padding: 90px 0;
+    padding: 50px 0;
 }
 
 aside {
-    padding: 30px 0;
+    padding: 20px 0;
 }
 
 .no-padding {
@@ -93,7 +93,7 @@ aside {
     @include sans-serif-font;
     @include transition-all;
     .navbar-header .navbar-brand {
-        color: $theme-primary;
+        color: $theme-header;
         @include sans-serif-font;
         font-weight: 700;
         text-transform: uppercase;
