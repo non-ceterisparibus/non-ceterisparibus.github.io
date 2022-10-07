@@ -5,7 +5,8 @@ body {
 }
 
 body {
-    @include serif-font;
+    // @include serif-font;
+    font-family: $font-family-base;
 }
 
 hr {
@@ -33,7 +34,8 @@ h3,
 h4,
 h5,
 h6 {
-    @include sans-serif-font;
+    // @include sans-serif-font;
+    font-family: $font-family-base;
 }
 
 p {
@@ -78,7 +80,7 @@ section {
 }
 
 aside {
-    padding: 20px 0;
+    padding: 40px 0;
 }
 
 .no-padding {
@@ -90,12 +92,13 @@ aside {
 .navbar-default {
     background-color: rgb(41, 41, 41);
     border-color: rgba($theme-dark, .5);
-    @include sans-serif-font;
+    // @include sans-serif-font;
     @include transition-all;
     .navbar-header .navbar-brand {
         color: $theme-header;
-        @include sans-serif-font;
+        // @include sans-serif-font;
         font-weight: 700;
+        font-family: $font-family-base;
         text-transform: uppercase;
         &:hover,
         &:focus {
@@ -264,7 +267,8 @@ header {
             transform: translateY(-50%);
             .project-category,
             .project-name {
-                @include sans-serif-font;
+                // @include sans-serif-font;
+                font-family: $font-family-base;
                 padding: 0 15px;
             }
             .project-category {
@@ -325,7 +329,8 @@ header {
 }
 
 .btn {
-    @include sans-serif-font;
+    // @include sans-serif-font;
+    font-family: $font-family-base;
     border: none;
     border-radius: 300px;
     font-weight: 700;
